@@ -1,0 +1,9 @@
+{
+  "name": "luna-threshold-sense",
+  "category": "skill",
+  "zhDesc": "阈值钝化微感知",
+  "enDesc": "A quick self-check to notice filter dulling before tightening the gate.",
+  "motivation": "素材里'[fact] [进化] 高频筛选确实会让阈值钝化'",
+  "skillName": "threshold-sense",
+  "builtAt": "2026-11-01T08:07:53.985Z"
+}

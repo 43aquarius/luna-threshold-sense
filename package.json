@@ -1,0 +1,26 @@
+{
+  "name": "luna-threshold-sense",
+  "version": "0.1.0",
+  "description": "阈值钝化微感知",
+  "type": "module",
+  "main": "./dsh/index.js",
+  "exports": {
+    ".": "./dsh/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-skill-filesystem": "^0.0.1-rc.3"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "whale-girl",
+    "skill"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
